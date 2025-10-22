@@ -1,0 +1,24 @@
+
+.main-div{
+    display:flex;
+    flex-direction:row;
+    align-items: stretch; 
+    gap: 16px;
+    padding: 20px; 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lavender;
+    box-sizing: border-box;
+}
+
+.div1, .div2{
+    width: 50%;
+    min-height: 60vh; 
+    padding: 0 16px; 
+}
+
+.div1 p, .div2 p{
+    font-size: 20px;
+    font-style: italic;
+}

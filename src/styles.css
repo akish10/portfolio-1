@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+* { box-sizing: border-box; }
+body {
+	margin: 0;
+	font-family: 'Arial', sans-serif;
+	background-color: lavender;
+	
+}
+
+/*For tablet*/
+@media (max-width: 900px) {
+	.main, .main-div, .contact-page {
+		display: flex !important;
+		flex-direction: column !important;
+		padding: 16px !important;
+		width: 100%;
+	}
+
+	.image, .div1, .div2, .info {
+		width: 100% !important;
+		padding: 8px !important;
+	}
+
+	.navbar a {
+		font-size: 18px;
+		padding: 8px 10px;
+	}
+}
+
+
+/*For mobile*/
+@media (max-width: 600px) {
+	body { font-size: 16px; }
+
+	.main, .main-div, .contact-page {
+		padding: 12px !important;
+	}
+
+	.navbar {
+		flex-direction: column;
+		gap: 6px;
+		padding: 10px;
+	}
+
+	.navbar a { font-size: 16px; padding: 6px 8px; }
+
+	.image img { width: 100%; height: auto; }
+}

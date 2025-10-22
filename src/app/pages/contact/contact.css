@@ -1,0 +1,33 @@
+
+
+section, p {
+    padding: 5px;
+    background-color: lavender;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    background-color: lavender;
+    font-family: 'Arial',sans-serif;
+    padding:0px;
+    padding-bottom: 30px;
+    margin:0px;
+    height: 100vh;
+}
+
+.section1, .section2 {
+    text-align: center;
+    width: 100%;
+}
+
+
+.link a {
+    text-decoration: underline;
+}
+
+
+

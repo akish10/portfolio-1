@@ -1,0 +1,24 @@
+div{
+    margin:0px;
+    padding: 0px;
+    background-color: lavender;
+    padding-bottom: 30px;
+}
+
+section{
+    background-color: lavender;
+    font-size: 20px;
+    font-family:'Arial', sans-serif;
+    padding: 5px;
+    margin:0px;
+}
+
+li{
+    padding: 2px;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+.last-section {
+    margin-bottom: 80px;
+}
