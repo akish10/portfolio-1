@@ -2,8 +2,6 @@
 
 section, p {
     padding: 5px;
-    background-color: lavender;
-    font-family: 'Arial', sans-serif;
     font-size: 20px;
 }
 
@@ -11,11 +9,12 @@ section, p {
 .contact-page {
     display: flex;
     flex-direction: column;
-    background-color: lavender;
-    font-family: 'Arial',sans-serif;
+    background-color: black;
+    font-family: 'Monospace', monospace;
     padding:0px;
     padding-bottom: 30px;
-    margin:0px;
+    color:gray;
+    margin:5px;
     height: 100vh;
 }
 
